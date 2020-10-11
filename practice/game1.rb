@@ -11,7 +11,7 @@ print number
 
 puts "make a guess"
 
-guess = gets.to_i
+guess = gets.chomp.to_i
 
 print guess
 
